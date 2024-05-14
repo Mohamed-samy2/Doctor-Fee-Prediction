@@ -25,6 +25,35 @@ Categorizing Fee Prices into categories and building a classification
 model to predict medical service belong to which category (e.g., 
 expensive, cheap, affordable)
 
+# Project Pipeline:
+   **1.** Exploratory Data Analysis (EDA): Conduct a deep analysis of the dataset to 
+understand the distribution and relationships between the features.Observe and 
+handle any errors within the features.Explore the distribution of fee prices and 
+identify potential correlations with other features.
+
+   **2.** Data Preprocessing: Handle missing values, outliers, and any 
+inconsistencies in the dataset. Perform data cleaning and normalization 
+to ensure the quality and consistency of the data.
+
+   **3.** Feature Encoding: Encode categorical variables into numerical 
+representations suitable for machine learning algorithms. Utilize 
+techniques such as one-hot encoding or label encoding to transform 
+categorical attributes into a format understandable by regression 
+models.
+
+   **4.** Feature Selection: Identify and select relevant features that contribute 
+most to predicting fee prices.Using techniques such as correlation 
+analysis or feature importance ranking.
+
+   **5.** Model Building: Experimenting with multiple regression and classification algorithms 
+through extensive model selection, tuning, and evaluation processes to 
+identify the best-performing model.
+
+   **6.** Model Selection: After tuning and evaluating the models, selecting the 
+best-performing regression and classification models based on its performance on the 
+dataset. Subsequently, training the chosen models and assessing its 
+performance on test data to analyze and gain insights from the results
+
 # Credits:
 - [Mohamed Samy](https://www.linkedin.com/in/mohamed-samy10/)
 - [Yomna Mohamed](https://www.linkedin.com/in/yomna-muhammed-b964a6270/)
